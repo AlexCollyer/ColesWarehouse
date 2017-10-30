@@ -1,0 +1,88 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+
+.topRed
+{
+	width: 100%;
+	height: 110px;
+	background-color: #980000;
+}
+
+.topRed-Login
+{
+	position: absolute;
+	height: 35px;
+	width: 400px;
+	background-color: #980000;
+	right: 50px;
+	top: 40px;
+}
+
+.topRed-Login p 
+{
+	margin: auto;
+	color: white;
+}
+
+.logs
+{
+	background-color: #980000;
+	border: transparent;
+	color: white;
+	font-family: gill sans mt;
+	font-size: 20px;
+	padding: 0;
+}
+.search
+{
+	position: absolute;
+	transform:scale(0.125);
+	top: -110px;
+	left: 85px;
+}
+
+.checkout
+{
+	position: absolute;
+	transform: scale(0.125);
+	top: -110px;
+	left: 180px;
+}
+
+.logo
+{
+	position: relative;
+	margin-left: -830px;
+	top: -490px;
+	transform: scale(0.13);
+}
+
+.searchbar
+{
+	position: absolute;
+	top: 100px;
+	width: 100%;
+	height: 110px;
+	background-color: #FFFFFE;
+	border: 1px solid #980000;
+}
+
+#myForm
+{
+	position: aboslute;
+	text-align: center;
+}
+
+#myForm input
+{
+	width: 600px;
+	height: 45px;
+	border-radius: 30px;
+	border: 1px solid #980000;
+	font-family: gill sans mt;
+	font-size: 20px;
+	text-align: center;
+}
