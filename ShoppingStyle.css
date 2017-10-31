@@ -99,12 +99,12 @@ ul {
 	}
 	
 
-ul li 
+ul .lii1 
 {
     float: left;
 }
 
-ul li a 
+ul .lii1 .a1 
 {
     display: inline-block;
     color: #FFFFFE;    
@@ -117,13 +117,13 @@ ul li a
 	margin-left: 135px;
 }
 
-ul li a:hover 
+ul .lii1 .a1:hover 
 {
-    background-color: #FFFFFE;
-	color: #980000;
+   
+	color: black;
 }
 
-ul li a:active 
+ul .lii1 .a1:active 
 {
     background-color: #980000;
 	color: #FFFFFE;
@@ -132,6 +132,22 @@ ul li a:active
 .carousel {
 	margin-top: 20px;
 	display: block;
-	position: absolute;
 }
+
+.a1 {
+	padding: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
