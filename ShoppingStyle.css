@@ -54,11 +54,12 @@ body
 
 .logo
 {
-	position: relative;
+	position: absolute;
 	margin-left: -830px;
 	top: -490px;
 	transform: scale(0.13);
 }
+
 
 .searchbar
 {
