@@ -90,24 +90,48 @@ body
 
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: 100px 0px 0px 0px;
     padding: 0;
     overflow: hidden;
     background-color: #980000;
+	position:aboslute;
+	border-bottom: 1px;
 	}
+	
 
-li {
+ul li 
+{
     float: left;
 }
 
-li a {
+ul li a 
+{
     display: inline-block;
-    color: #FFFFFE;
-    text-align: center;
-    padding: 14px 16px;
+    color: #FFFFFE;    
+    padding: 35px 45px;
     text-decoration: none;
+	font-family: gill sans mt;
+	font-size: 25px;
+	width: 80px;
+	text-align: center;
+	margin-left: 135px;
 }
 
-li a:hover {
-    background-color: #980000;
+ul li a:hover 
+{
+    background-color: #FFFFFE;
+	color: #980000;
 }
+
+ul li a:active 
+{
+    background-color: #980000;
+	color: #FFFFFE;
+}
+
+.carousel {
+	margin-top: 20px;
+	display: block;
+	position: absolute;
+}
+
