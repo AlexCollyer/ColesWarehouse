@@ -152,6 +152,38 @@ ul .lii1 .a1:active
 	
 }
 
+.gallery1 {
+    border: 1px solid #ccc;
+    float: left;
+    width: 16.6%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.gallery1:hover {
+    border: 1px solid #777;
+}
+
+.gallery1 img {
+    width: 100%;
+    height: auto;
+}
+
+.desc1 {
+    padding: 15px;
+    text-align: center;
+}
+
+.center {
+	width: 90%;
+	position: absolute;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 10%;
+}
+
+
+
 
 
 
