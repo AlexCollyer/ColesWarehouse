@@ -149,17 +149,32 @@ ul .lii1 .a1:active
 
 .offers
 {
-	border: 1px solid red;
 	height: 600px;
 	width: 1000px;
 	margin: 0 auto;
 }
-.offers .img1
+.offers .galleryH
 {
-	margin: 120px 60px;
-	border: 1px solid red;
+	border: transparent;
+	float: left;
+	margin: 100px 65px;
+	box-shadow: 5px 5px 20px #888888;
 }
-.offers .img2
+
+.offers .galleryH:hover
+{
+	transform:scale(1.1);
+}
+
+.offers .descc
+{
+	text-align: center;
+	padding:4px;
+	border-top: 1px solid black;
+	font-family: gill sans mt;
+	font-size: 19px;
+}
+/*.offers .img2
 {
 	margin: 120px 60px;
 	border: 1px solid red;
@@ -168,7 +183,7 @@ ul .lii1 .a1:active
 {
 	margin: 120px 60px;
 	border: 1px solid red;
-}
+} */
 
 .gallery1 {
     border: 1px solid #ccc;
