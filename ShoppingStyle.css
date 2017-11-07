@@ -138,10 +138,19 @@ ul .lii1 .a1:active
 	padding: 200px;
 }
 
+.homePic
+{
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+	width: 80%;
+	height: auto;
+}
 
-
-
-
+.offers
+{
+	
+}
 
 
 
