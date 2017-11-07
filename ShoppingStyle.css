@@ -1,5 +1,5 @@
 body
-{
+{	
 	margin: 0;
 	padding: 0;
 }
@@ -199,9 +199,24 @@ ul .lii1 .a1:active
 	margin-right: 20%;
 	margin-top: 10%;
 }
+#ryan{
+	position: absolute;
+	width: 100%;
+	background-color: limegreen;
 
 
 
+}
+
+/*#info{
+	position: absolute;
+	bottom :0%;
+	background-color:rgba(252,251,227,0.5);
+	width: 100%; 
+	left: 0%;
+
+}
+*/
 
 
 
