@@ -190,6 +190,8 @@ ul .lii1 .a1:active
     width: 16.6%;
 	margin-left: auto;
 	margin-right: auto;
+	width: 17%;
+	height: auto;
 }
 
 .gallery1:hover {
@@ -232,6 +234,7 @@ ul .lii1 .a1:active
 }
 */
 
+<<<<<<< HEAD
 .footerbox
 {
 	background: #980000;
@@ -245,13 +248,20 @@ ul .lii1 .a1:active
 	border: 1px solid white;
 	margin: auto;
 	position: relative;
-}
+/*=======
+.headerbed{
+	text-align: center;
+	margin-top: 50px;
+	color: 980000;
+	font-size: 70;
+>>>>>>> eebf545a8b612c66ad37bbec7d2b2d38e297d51e
+}*/
 
 .preHold
 {
 	width: 900px;
 	height: 290px;
-	border: 1px solid limegreen;
+	/* border: 1px solid limegreen; */
 	display: inline-block;
 }
 .footerContent pre
@@ -262,12 +272,13 @@ ul .lii1 .a1:active
 	padding: 20px;
 }
 
+<<<<<<< HEAD
 .media
 {
 	position: absolute;
 	width: 250px;
 	height: 60px;
-	border: 1px solid orange;
+	/* border: 1px solid orange; */
 	display: inline-block;
 	margin-top: 230px;
 	margin-left: 140px;
@@ -308,3 +319,14 @@ ul .lii1 .a1:active
 	margin-left: 170px;
 	margin-top: 10px;
 }
+=======
+.price {
+	text-align: center;
+}
+
+.review{
+	text-align: center;
+	font-size: 25;
+}
+
+>>>>>>> eebf545a8b612c66ad37bbec7d2b2d38e297d51e
