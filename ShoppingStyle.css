@@ -191,6 +191,8 @@ ul .lii1 .a1:active
     width: 16.6%;
 	margin-left: auto;
 	margin-right: auto;
+	width: 17%;
+	height: auto;
 }
 
 .gallery1:hover {
@@ -233,10 +235,20 @@ ul .lii1 .a1:active
 }
 */
 
+.headerbed{
+	text-align: center;
+	margin-top: 50px;
+	color: 980000;
+	font-size: 70;
+}
 
 
+.price {
+	text-align: center;
+}
 
-
-
-
+.review{
+	text-align: center;
+	font-size: 25;
+}
 
