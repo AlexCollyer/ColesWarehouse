@@ -38,9 +38,9 @@
 
 				<ul>
 				  <li class="lii1"><a class="a1" href="ShoppingHome.html">Home</a></li>
-				  <li class="lii1"><a class="a1" href="#sports">Sports</a></li>
+				  <li class="lii1"><a class="a1" href="sports.html">Sports</a></li>
 				  <li class="lii1"><a class="a1" href="furniture.html">Furniture</a></li>
-				  <li class="lii1"><a class="a1" href="#garden">Garden</a></li>
+				  <li class="lii1"><a class="a1" href="garden.html">Garden</a></li>
 				  <li class="lii1"><a class="a1" class="active" href="TOYS PAGE.html">Toys</a></li>
 				</ul>
 			</div>
@@ -233,25 +233,54 @@
 							setTimeout(showSlides, 2000); // Change image every 2 seconds
 						}			
 						</script>
+				<footer class="footerbox">
+ 				<div class="footerContent">
+ 				<div class="preHold">
+                                       						
+			
+
+					</div>
+		</div>
+				<div height="100px
+				"></div>
+						<script>
+						var slideIndex = 0;
+						showSlides();
+
+						function showSlides() {
+							var i;
+							var slides = document.getElementsByClassName("mySlides");
+							var dots = document.getElementsByClassName("dot");
+							for (i = 0; i < slides.length; i++) {
+							   slides[i].style.display = "none";  
+							}
+							slideIndex++;
+							if (slideIndex > slides.length) {slideIndex = 1}    
+							for (i = 0; i < dots.length; i++) {
+								dots[i].className = dots[i].className.replace(" active", "");
+							}
+							slides[slideIndex-1].style.display = "block";  
+							dots[slideIndex-1].className += " active";
+							setTimeout(showSlides, 2000); // Change image every 2 seconds
+						}
+						</script>
 
 						<div class="footer">
-								<pre>
-							<a>Refunds</a>				<a>Commonly Asked Questions</a>  	<img class="facebook" src="http://www.ivyrosebridal.co.uk/images/social_media/facebook.png" alt="Share on Facebook">
+	<pre>
+<a>Refunds</a>				<a>Commonly Asked Questions</a>  	<img class="facebook" src="http://www.ivyrosebridal.co.uk/images/social_media/facebook.png" alt="Share on Facebook">
 
-							<a>Returns</a>				<a>About Us</a> 	<img class="twitter" src="http://www.wolfestone.co.uk/wp-content/themes/wolfestone/images/vectors/icon-twitter.svg" alt="Share on Twitter">
+<a>Returns</a>				<a>About Us</a> 	<img class="twitter" src="http://www.wolfestone.co.uk/wp-content/themes/wolfestone/images/vectors/icon-twitter.svg" alt="Share on Twitter">
 
-							<a>Contact Us</a>			<a>Reviews</a> 	<img class="google" src="https://www.gallowayandbrown.com/image/catalog/google.png" alt="Share on Google">
+<a>Contact Us</a>			<a>Reviews</a> 	<img class="google" src="https://www.gallowayandbrown.com/image/catalog/google.png" alt="Share on Google">
 
-							<a>Stores</a>				<a>Report An Issue</a> 	<img class="instagram" src="https://www.careeranalysts.co.uk/images/instagram.png" alt="Share on Instagram">
-								</pre>
-								<fieldset class="rating">
-								<input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Rocks!">5 stars</label>
-								<input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Pretty good">4 stars</label>
-								<input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Meh">3 stars</label>
-								<input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Kinda bad">2 stars</label>
-								<input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Sucks big time">1 star</label>
-								</fieldset>
-						</div>
-						
-	</body>
+<a>Stores</a>				<a>Report An Issue</a> 	<img class="instagram" src="https://www.careeranalysts.co.uk/images/instagram.png" alt="Share on Instagram">
+	</pre>
+	<fieldset class="rating">
+    <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Rocks!">5 stars</label>
+    <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Pretty good">4 stars</label>
+    <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Meh">3 stars</label>
+    <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Kinda bad">2 stars</label>
+    <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Sucks big time">1 star</label>
+    </fieldset>
+</div></body>
 </html>
