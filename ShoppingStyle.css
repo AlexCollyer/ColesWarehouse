@@ -544,7 +544,7 @@ fieldset {
     
 }
 .column2 {
-    float: left;
+    float: right;
     width: 50%;
     padding: 10px;
 	font-size: 25px;
