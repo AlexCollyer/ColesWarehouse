@@ -514,3 +514,13 @@ fieldset {
 	margin-top: -6%;
 }
 
+
+.gallery2 {
+    border: 1px solid #ccc;
+    float: left;
+    width: 16.6%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 17%;
+	height: auto;
+}
